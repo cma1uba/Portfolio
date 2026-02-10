@@ -8,15 +8,77 @@
 body {
     background-color: #f4f7f6;
     color: #333;
-    padding: 2rem;
+    padding: 0 2rem;
+    scroll-behavior: smooth;
 }
-.header{
-    text-align: center;
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 5%;
+    position: sticky;
+    top: 0;
+    background: #f4f7f6;
+    box-shadow: 1px 1px 15px #ccc;
+    z-index: 100;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.logo img{
     height: 45px;
-    margin-bottom: 25px;
-    box-shadow: 0px 1px 2px #ccc;
+    width: 45px;
+    border: 1px solid #4338ca;
+    border-radius: 50%;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+    background: #e0e7ff;
+    border-top: 1px solid #2563eb;
+    border-bottom: 1px solid #2563eb;
+}
+
+.hero-section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.highlight {
     color: #2563eb;
 }
+
+.hero-btn{
+    margin-top: 2rem;
+}
+
 
 /* The Grid Container */
 #project-grid {
@@ -26,7 +88,7 @@ body {
     margin-top: 2rem;
 }
 
-/* Individual Project Cards */
+
 .project-card {
     background: white;
     padding: 1.5rem;
@@ -39,7 +101,7 @@ body {
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 /* Tech Tags Styling */
@@ -68,5 +130,19 @@ body {
     text-align: center;
     border-radius: 6px;
     font-weight: 500;
+}
+
+footer {
+    padding: 5rem 10%;
+    text-align: center;
+    background: ;
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+}
+
+.socials {
+    margin-top: 2rem;
 }
 
