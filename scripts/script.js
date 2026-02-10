@@ -9,7 +9,7 @@ const myProjects = [
         title: "Movie Watchlist",
         tech: ["Local Storage", "OMDb API"],
         description: "Save your favorite films to browser memory.",
-        link: "https://cma1uba.github.io/Movie-watchlist/"
+        link: "https://cma1uba.github.io/Movie-watchlist/ "
     },
 {
     title: "E-Commerce",
