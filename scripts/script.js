@@ -12,11 +12,11 @@ const myProjects = [
         link: "https://cma1uba.github.io/Movie-watchlist/ "
     },
 {
-    title: "E-Commerce"
-    tech: "Javascript, CSS"
-    description: "An E-commerce with a simple modern design exhibiting add products to cart, price calculations and checkout "
-    link; "https://github.com/cma1uba/E-commerce"
-}
+    title: "E-Commerce",
+    tech: ["Javascript", "CSS"],
+    description: "An E-commerce with a simple modern design exhibiting add products to cart, price calculations and checkout.",
+    link: "https://github.com/cma1uba/E-commerce"
+},
 ];
 
 const projectGrid = document.getElementById("project-grid");
