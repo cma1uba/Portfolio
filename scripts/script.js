@@ -9,13 +9,13 @@ const myProjects = [
         title: "Movie Watchlist",
         tech: ["Local Storage", "OMDb API"],
         description: "Save your favorite films to browser memory.",
-        link: "https://cma1uba.github.io/Movie-watchlist/ "
+        link: "https://cma1uba.github.io/Movie-watchlist/"
     },
 {
     title: "E-Commerce",
     tech: ["Javascript", "CSS"],
     description: "An E-commerce with a simple modern design exhibiting add products to cart, price calculations and checkout.",
-    link: "https://github.com/cma1uba/E-commerce"
+    link: "https://cma1uba.github.io/E-commerce/"
 },
 ];
 
