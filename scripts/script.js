@@ -3,14 +3,20 @@ const myProjects = [
         title: "Weather Dashboard",
         tech: ["JavaScript", "APIs", "CSS"],
         description: "A live weather app using Open-Meteo.",
-        link: "#"
+        link: "https://cma1uba.github.io/Weather-app-main/"
     },
     {
         title: "Movie Watchlist",
         tech: ["Local Storage", "OMDb API"],
         description: "Save your favorite films to browser memory.",
-        link: "#"
-    }
+        link: "https://cma1uba.github.io/Movie-watchlist/ "
+    },
+{
+    title: "E-Commerce"
+    tech: "Javascript, CSS"
+    description: "An E-commerce with a simple modern design exhibiting add products to cart, price calculations and checkout "
+    link; "https://github.com/cma1uba/E-commerce"
+}
 ];
 
 const projectGrid = document.getElementById("project-grid");
