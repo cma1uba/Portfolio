@@ -17,12 +17,14 @@ const myProjects = [
         description: "An E-commerce with a simple modern design exhibiting add products to cart, price calculations and checkout.",
         link: "https://cma1uba.github.io/E-commerce/"
     },
-    /*{
+    {
         title: "Quiz",
-        tech: ["Javascript", "CSS"],
-        description: "MCQs quiz app",
-        link: "https://cma1uba.github.io/Quiz/"
-    },*/
+        tech: ["JavaScript", "CSS"],
+        description: "A web based quiz app with quitions and multiple choice answers",
+        link: "https://cma1uba.github.io/E-commerce/"
+    },
+    
+        
 ];
 
 const projectGrid = document.getElementById("project-grid");
