@@ -19,7 +19,7 @@ const myProjects = [
     },
     {
         title: "Quiz",
-        tech:. ["Javascript", "CSS"],
+        tech: ["Javascript", "CSS"],
         description: "MCQs quiz app",
         link: "https://cma1uba.github.io/Quiz/"
     },
