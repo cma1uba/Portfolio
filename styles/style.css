@@ -131,7 +131,9 @@ body {
     border-radius: 6px;
     font-weight: 500;
 }
-
+#contact{
+    margin-top: 2rem 0;
+    }
 #contact-form {
     max-width: 600px;
     margin: 2rem auto;
