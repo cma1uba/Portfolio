@@ -57,12 +57,12 @@ body {
 }
 
 .hero-section {
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 30px auto;
     padding: 0 10%;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .hero-btn{
-    margin-top: 2rem;
+    margin: 2rem auto;
 }
 
 
