@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 5%;
+    padding: 1rem 5%;
     position: sticky;
     top: 0;
     background: #f4f7f6;
