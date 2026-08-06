@@ -1,57 +1,99 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-				<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-				<link rel="stylesheet" href="styles/style.css"/>
-				<title>MalubaChoonya</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Maluba Choonya, a creative developer crafting thoughtful digital experiences.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Maluba Choonya — Creative Developer</title>
 </head>
 <body>
-				<nav class="navbar">
-        <div class="logo">
-        				<img src="images/logo.jpg">
-        </div>
-        <ul class="nav-links">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#project-grid">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-				
-				<header id="hero" class="hero-section">
-        <h1>Hi, I'm <span class="highlight">Maluba</span>.</h1>
-        <p>A Creative Developer building digital experiences.</p>
-        <a href="#project-grid" class="btn hero-btn">View My Work</a>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <nav class="navbar" aria-label="Primary navigation">
+    <a class="brand" href="#top" aria-label="Maluba Choonya, home">
+      <span class="brand-mark">MC</span>
+      <span>Maluba Choonya</span>
+    </a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <header class="hero-section">
+      <p class="eyebrow"><span></span> Available for opportunities</p>
+      <div class="hero-copy">
+        <h1>Building digital experiences that feel <em>effortless.</em></h1>
+        <p class="hero-description">I'm Maluba, a creative developer with a focus on clean interfaces, thoughtful interactions, and products people enjoy using.</p>
+      </div>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">Explore selected work <span>↓</span></a>
+        <a href="#contact" class="text-link">Start a conversation <span>↗</span></a>
+      </div>
+      <div class="hero-meta">
+        <span>Based in South Africa</span>
+        <span>Creative developer</span>
+        <span>2026 portfolio</span>
+      </div>
     </header>
-				
-				<section id="portfolio-section">
-    <h2>My Work</h2>
-    <div id="project-grid" class="grid-container">
+
+    <section id="work" class="portfolio-section" aria-labelledby="work-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / Selected work</p>
+          <h2 id="work-heading">A few things I've<br>enjoyed making.</h2>
         </div>
-</section>
-				
-				<section id="contact">
-    <h2>Get In Touch</h2>
-    <form action="https://formspree.io/f/mlgwglvj" method="POST" id="contact-form">
-        <label>
-            Your email:
-            <input type="email" name="email" required placeholder="email@example.com">
-        </label>
-        <label>
-            Your message:
-            <textarea name="message" required placeholder="Hi, I'd love to work with you!"></textarea>
-        </label>
-        <button type="submit" class="btn">Send Message</button>
-    </form>
-</section>
-	<hr>
-				
-				<footer class="social-contact">
-        <div class="socials">
-            <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Twitter</a>
+        <p class="section-intro">From useful everyday tools to playful experiences, each project begins with clarity and ends with a considered interface.</p>
+      </div>
+      <div id="project-grid" class="grid-container" aria-live="polite"></div>
+    </section>
+
+    <section id="about" class="about-section" aria-labelledby="about-heading">
+      <p class="eyebrow">02 / Approach</p>
+      <div class="about-content">
+        <h2 id="about-heading">Good work lives at the intersection of <em>logic</em> and feeling.</h2>
+        <div class="about-copy">
+          <p>I care about the details that make a digital product feel clear, responsive, and distinctly human. I enjoy taking an idea from a loose brief to a useful, polished experience.</p>
+          <div class="skills-list">
+            <span>JavaScript</span><span>HTML &amp; CSS</span><span>Responsive design</span><span>Web APIs</span><span>UI development</span><span>Problem solving</span>
+          </div>
         </div>
-    </footer>
-				
-				<script src="scripts/script.js"></script>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+      <div class="contact-copy">
+        <p class="eyebrow">03 / Get in touch</p>
+        <h2 id="contact-heading">Have a project in mind?<br><em>Let's make it happen.</em></h2>
+        <p>Tell me a little about what you're building, and I'll get back to you soon.</p>
+      </div>
+      <form action="https://formspree.io/f/mlgwglvj" method="POST" id="contact-form">
+        <label>Your email
+          <input type="email" name="email" required placeholder="you@company.com" autocomplete="email">
+        </label>
+        <label>How can I help?
+          <textarea name="message" required placeholder="Tell me about your project..."></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send message <span>↗</span></button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span class="brand-mark">MC</span><span>Maluba Choonya</span></a>
+    <div class="socials">
+      <a href="https://github.com/cma1uba" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+      <a href="#contact">Get in touch <span>↗</span></a>
+    </div>
+    <span class="copyright">© 2026</span>
+  </footer>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
